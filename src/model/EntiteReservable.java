@@ -23,6 +23,6 @@ public abstract class EntiteReservable <T extends Formulaire>{
 	}
 	
 	public abstract boolean compatible(T formulaire);
-	public abstract void reserver(T formulaire);
+	public abstract Reservation reserver(T formulaire);
 
 }
